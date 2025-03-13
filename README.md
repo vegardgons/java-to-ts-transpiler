@@ -65,7 +65,7 @@ Your goal is to transpile Java code into TypeScript, ensuring that all units are
 ### 2. AST Processing with JavaParser
 
 You will use the [JavaParser library](https://javaparser.org/) to traverse the abstract syntax tree (AST) of Java code and "convert" it to TypeScript.
-You are provided with the file [JavaToTypeSriptTranspiler.kt](./src/main/kotlin/org/uib/JavaToTypeScriptTranspiler.kt).
+You are provided with the file [JavaTSTranspiler.kt](./src/main/kotlin/org/uib/JavaTSTranspiler.kt).
 
 Your task is to complete the implementation of the [TranspilerVisitor.kt](./src/main/kotlin/org/uib/TranspilerVisitor.kt) class, which is responsible for converting Java code into TypeScript. The core objective is to traverse the AST of the Java source code, process the units attached to variables and expressions, and output the corresponding TypeScript code as a string.
 
