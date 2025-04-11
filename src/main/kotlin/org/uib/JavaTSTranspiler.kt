@@ -26,7 +26,7 @@ class JavaTSTranspiler {
     }
 
     private fun populateVarToUnit(cu: CompilationUnit) {
-        val regex = "/\\\\*(.*?)\\\\*/" // TODO!!
+        val regex = """/\*\s*(\w+)\s*\*/"""
         // write a regex pattern to capture anything inside a multi-line comment: /* */
         val pattern = Pattern.compile(regex)
 
