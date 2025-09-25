@@ -82,4 +82,4 @@ npm run start
 
 - Assignment spec: INF222, UiB.
 
-- Uses s for AST traversal.
+- Uses JavaParser for AST traversal.
